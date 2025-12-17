@@ -1,6 +1,12 @@
-| Tema | Calculadora |
-| ------------- | ------ |
-| **Grupo** | Rodrigo (a22403960) e Fábio (a22407696) |
-| **Funcionalidade baseada em LLMInteractionEngine** | O utilizador pede operações matemáticas simples em linguagem natural (ex.: “faz a soma de 1+1”) e o LLMInteractionEngine interpreta e devolve o resultado correto. |
-| **Prompts esperadas para a func** | “Faz a soma de 1+1” / “Faz a subtração de 10-4” / “Faz a multiplicação de 3*5” / “Faz a divisão de 20/4” |
-| **Classes esperadas e sua responsabilidade** | **`Soma`** – Executa a operação de soma entre dois números. <br> **`Subtracao`** – Executa a operação de subtração entre dois números. <br> **`Multiplicacao`** – Executa a operação de multiplicação entre dois números. <br> **`Divisao`** – Executa a operação de divisão entre dois números, validando divisão por zero. <br> **`Menu`** – Mostra o menu ao utilizador, recolhe os dados e invoca as classes de operação. |
+# Mini-Projeto LP2 - Calculadora LLM
+
+## Tabela de Resumo
+
+| Campo | Descrição |
+|-------|-----------|
+| **Tema** | 1 - Calculadora Avançada |
+| **Grupo 13** | Rodrigo Nascimento (a22403960) e Fabio Farhat (a22407696) |
+| **Funcionalidade baseada em LLM** | O LLM responde a perguntas matemáticas em linguagem natural (ex: "Quanto é 15% de 200?", "Resolve x² - 5x + 6 = 0"). Expressões puras são calculadas localmente pela classe Calculadora. |
+| **Prompts esperadas** | "És um assistente de matemática. Responde de forma clara em português. Pergunta: {input}" |
+| **Prompts usadas** | "És um assistente de matemática. Responde de forma clara em português. Pergunta: {input}" |
+| **Classes esperadas e responsabilidades** | **Calculadora** - Avalia expressões matemáticas (+, -, *, /, ^). **CalculadoraGUI** - Interface gráfica moderna com Swing. **LLMInteractionEngine** - Comunicação HTTP com a API do LLM. **LLMCalculatorGame** - Controlo que decide se usa calculadora local ou LLM. **Operacao** - Classe abstrata base para operações. **Adicao** - Operação de soma. **Subtracao** - Operação de subtração. **Multiplicacao** - Operação de multiplicação. **Divisao** - Operação de divisão. **Potencia** - Operação de potência. **Quadrado** - Elevar ao quadrado. **RaizQuadrada** - Raiz quadrada. **Utils** - Leitura de input. |
