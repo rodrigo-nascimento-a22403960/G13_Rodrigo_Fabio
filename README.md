@@ -5,7 +5,7 @@
 | Campo | Descrição |
 |-------|-----------|
 | **Tema** | 1 - Calculadora Avançada |
-| **Grupo** | Rodrigo Nascimento (a22403960) e Fabio Farhat (a22407696) |
+| **Grupo 13** | Rodrigo Nascimento (a22403960) e Fabio Farhat (a22407696) |
 | **Funcionalidade baseada em LLM** | O LLM responde a perguntas matemáticas em linguagem natural (ex: "Quanto é 15% de 200?", "Resolve x² - 5x + 6 = 0"). Expressões puras são calculadas localmente pela classe Calculadora. |
 | **Prompts esperadas** | "És um assistente de matemática. Responde de forma clara em português. Pergunta: {input}" |
 | **Prompts usadas** | "És um assistente de matemática. Responde de forma clara em português. Pergunta: {input}" |
